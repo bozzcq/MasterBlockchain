@@ -6,115 +6,35 @@
 
 ## 目录
 
-中文版序言
-
-第二版更新内容
-
-英文版序言
-
-词汇表
-
-第一章介绍
-
-第二章比特币原理
-
-第三章比特币核心
-
-第四章密钥和地址
-
-第五章钱包
-
-第六章交易
-
-第七章高级交易和脚本
-
-第八章比特币网络
-
-第九章区块链
-
-第十章挖矿和共识
-
-第十一章比特币安全
-
-第十二章比特币应用
-
-附录部分
-
-附录1、比特币白皮书
-
-附录2、交易脚本语言操作符，常量和符号
-
-附录3、比特币改进建议（BIPs）
-
-附录4、隔离见证
-
-附录5、Bitcore
-
-附录6、pycoin
-
-附录7、比特币浏览器命令
-
-附录8、染色币
+- [中文版序言](https://github.com/zcc0721/MasterBlockchain/blob/master/cn-preface.md)
+- [第二版更新内容](https://github.com/zcc0721/MasterBlockchain/blob/master/second_edition_changes.md)
+- [英文版序言](https://github.com/zcc0721/MasterBlockchain/blob/master/preface.md)
+- [词汇表](https://github.com/zcc0721/MasterBlockchain/blob/master/glossary.md)
+- [译文说明](https://github.com/zcc0721/MasterBlockchain/blob/master/trans-preface.md)
+- 正文
+    - [第一章 介绍](https://github.com/zcc0721/MasterBlockchain/blob/master/ch01.md)
+    - [第二章 比特币原理](https://github.com/zcc0721/MasterBlockchain/blob/master/ch02.md)
+    - [第三章 比特币核心](https://github.com/zcc0721/MasterBlockchain/blob/master/ch03.md)
+    - [第四章 密钥和地址](https://github.com/zcc0721/MasterBlockchain/blob/master/ch04.md)
+    - [第五章 钱包](https://github.com/zcc0721/MasterBlockchain/blob/master/ch05.md)
+    - [第六章 交易](https://github.com/zcc0721/MasterBlockchain/blob/master/ch06.md)
+    - [第七章 高级交易和脚本](https://github.com/zcc0721/MasterBlockchain/blob/master/ch07.md)
+    - [第八章 比特币网络](https://github.com/zcc0721/MasterBlockchain/blob/master/ch08.md)
+    - [第九章 区块链](https://github.com/zcc0721/MasterBlockchain/blob/master/ch09.md)
+    - [第十章 挖矿和共识](https://github.com/zcc0721/MasterBlockchain/blob/master/ch10.md)
+    - [第十一章 比特币安全](https://github.com/zcc0721/MasterBlockchain/blob/master/ch11.md)
+    - [第十二章 比特币应用](https://github.com/zcc0721/MasterBlockchain/blob/master/ch12.md)
+- 附录
+    - [附录1 比特币白皮书](https://github.com/zcc0721/MasterBlockchain/blob/master/appdx-bitcoinwhitepaper.md)
+    - [附录2 交易脚本语言操作符，常量和符号](https://github.com/zcc0721/MasterBlockchain/blob/master/appdx-scriptops.md)
+    - [附录3 比特币改进建议（BIPs）](https://github.com/zcc0721/MasterBlockchain/blob/master/appdx-bips.md)
+    - [附录4 隔离见证](https://github.com/zcc0721/MasterBlockchain/blob/master/appdx-segwit.md)
+    - [附录5 Bitcore](https://github.com/zcc0721/MasterBlockchain/blob/master/appdx-bitcore.md)
+    - [附录6 pycoin](https://github.com/zcc0721/MasterBlockchain/blob/master/appdx-pycoin.md)
+    - [附录7 比特币浏览器命令](https://github.com/zcc0721/MasterBlockchain/blob/master/appdx-bx.md)
+    - [附录8 染色币](https://github.com/zcc0721/MasterBlockchain/blob/master/appdx-colored_coins.md)
 
 ---
-
-## 原书前言
-
-本书改编自《精通比特币》中文第二版。
-
-郎咸平说过：比特币白给我都不要
-
-巴菲特：比特币是泡沫，不是一种能够生产价值的资产
-
-紫色的股：为什么说比特币是典型的泡沫
-
-......
-
-也有人说，区块链是最伟大的发明，堪比互联网。
-
-到底比特币是什么？如何判断？难道我们能做的就是人云亦云？
-
-如何能有自己的独立判断？
-
-每个人都有自己的“全知遮蔽”，就像每个人都看不见自己的后脑勺一样。在自己的视野内，在自己的舒适区，如鱼得水，但是就是这种感觉最容易让自己以为“自己以为的”就是客观事实。
-
-正确的态度是研究搞懂，之后才有资格做判断。
-
-这本书就能帮助您全面了解比特币，而且有助于理解其他数字货币。
-
-本书翻译过程中得到了higer（区块链研究社社长）的支持和鼓励，特此致谢。
-
-本书部分段落内容参考摘录了《精通比特币》知笔墨版本，在此特别声明并致谢。
-
-本书附录1比特币白皮书全文摘自巴比特 《比特币白皮书：一种点对点的电子现金系统》，在此特别声明并致谢。
-
-以下朋友对本书做出巨大贡献：
-
-菜菜子：翻译了英文版序言，第二版更新说明，词汇表，附录2交易脚本语言操作符，常量和符号等章节
-
-柴春燕和格林怪物：联合翻译附录隔离见证部分
-
-Robbie_英语翻译：第4章审核校对
-
-吴迪：第5章，第9章审核校对
-
-格林怪物：第6章审核校对
-
-阿龙：第7章，第11章审核校对
-
-阮立志和冯锦炜：第10章审核校对
-
-琳：第12章审核校对
-
-黄豆：封面封底扉页以及其他内容设计
-
-由于时间原因和个人水平能力原因，初稿中有许多格式和理解翻译错误。以上各位朋友在审核校过程中修正了初稿中许多错误，甚至部分章节兼职了翻译工作，在此表示致歉和感谢。
-
-即便如此，当前版本还可能存在部分错误，欢迎读者在github上提交勘误，也可以发至邮箱：yuntianming@aliyun.com
-
-乔延宏 2017.11.11
-
-
 
 ## Mastering Bitcoin - Second Edition 版权说明
 
